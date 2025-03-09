@@ -1,0 +1,14 @@
+---
+manufacturer: Nokia
+model: CPIOM-7250-IXR-R6
+part_number: 3HE11283AARC01
+comments: CPIOM control processor module for 7250 IXR-R6
+console-ports:
+  - name: '{module}/Console'
+    type: rj-45
+  - name: '{module}/USB'
+    type: usb-a
+interfaces:
+  - name: Management
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,11 @@
+---
+manufacturer: Nokia
+model: PS-7250-IXR-R6-AC
+part_number: 3HE09432AA
+#these specs are not correct
+comments: 1600W AC Power Supply F2B airflow
+# airflow: front-to-rear
+power-ports:
+  - name: PSU{module}
+    type: iec-60320-c14
+    maximum_draw: 1600

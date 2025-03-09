@@ -1,0 +1,21 @@
+---
+manufacturer: Nokia
+model: MDA-7250-1x100GE-6x10GE
+part_number: 3HE11282AARB01
+comments: 1x100GE, 6x10GE QSFP28 ports Media Dependent Adapter (MDA) for the 7250 IXR-R6 that provides additional physical interface connectivity. '[7750
+  Data Sheet](https://onestore.nokia.com/asset/164728)'
+interfaces:
+  - name: '{module}/c1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}/1'
+    type: 10gbase-x-sfpp
+  - name: '{module}/2'
+    type: 10gbase-x-sfpp
+  - name: '{module}/3'
+    type: 10gbase-x-sfpp
+  - name: '{module}/4'
+    type: 10gbase-x-sfpp
+  - name: '{module}/5'
+    type: 10gbase-x-sfpp
+  - name: '{module}/6'
+    type: 10gbase-x-sfpp
