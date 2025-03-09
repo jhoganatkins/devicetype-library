@@ -15,4 +15,28 @@ power-ports:
   - name: DC2
     type: iec-60320-c14
     maximum_draw: 650
-
+module-bays:
+  - name: CPIOM 1
+    position: 0/1
+  - name: CPIOM 2
+    position: 0/2
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: Fan Tray 1
+    position: '1'
+  - name: Fan Tray 2
+    position: '2'
+  - name: Slot 1 - MDA 1
+    position: '1/1'
+  - name: Slot 2 - MDA 2
+    position: '1/2'
+  - name: Slot 3 - MDA 3
+    position: '1/3'
+  - name: Slot 4 - MDA 4
+    position: '1/4'
+  - name: Slot 5 - MDA 5
+    position: '1/5'
+  - name: Slot 6 - MDA 6
+    position: '1/6'    
